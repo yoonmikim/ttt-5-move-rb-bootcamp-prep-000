@@ -8,5 +8,9 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  input.to_i - 1
+  input.gets.strip.to_i - 1
+end
+
+def update_array_at_with(array, index, value)
+  array[index] = value
 end
